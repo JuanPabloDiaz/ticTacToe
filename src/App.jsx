@@ -45,7 +45,9 @@ function Board() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="status">{status}</div>
+      <div className="status text-center text-2xl font-bold text-black/60">
+        {status}
+      </div>
       <div className="shadow-[#5C5552 m-2 grid grid-flow-col grid-rows-3 rounded-xl bg-[#DECBB7] p-4 shadow-xl">
         {[...Array(9)].map((_, i) => (
           <Square key={i} value={squares[i]} onClick={() => handleClick(i)} />
