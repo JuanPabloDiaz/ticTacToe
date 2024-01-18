@@ -55,10 +55,12 @@ function Board() {
       </div>
       <button
         onClick={resetGame}
-        className="rounded-xl bg-[#DECBB7] px-4 py-2 font-bold text-[#5C5552] transition duration-200 hover:bg-[#F7F0F5]"
+        className="flex justify-center gap-8 rounded-xl  bg-[#DECBB7] px-4 py-2 text-center font-bold text-[#5C5552] transition duration-200 hover:bg-[#F7F0F5]"
       >
-        Reset Game
-      </button>{" "}
+        <GiTicTacToe className="h-6 w-6 rounded-lg bg-transparent" />
+        <span>Reset Game</span>
+        <GiTicTacToe className="h-6 w-6 rounded-lg bg-transparent" />
+      </button>
     </div>
   );
 }
@@ -91,7 +93,7 @@ function App() {
           <h1 className="text-3xl font-extrabold sm:text-3xl md:text-4xl lg:text-5xl">
             Tic Tac Toe
           </h1>
-          <GiTicTacToe className="h-10 w-full" />
+          {/* <GiTicTacToe className="h-10 w-full" /> */}
         </div>
         <div className="gap-2 rounded-lg bg-[#8F857D] p-4 sm:gap-3 md:gap-4 lg:gap-6">
           <section className="">
