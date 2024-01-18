@@ -2,11 +2,12 @@ import { useState } from "react";
 import "./App.css";
 import Layout from "./Components/Layout";
 import PropTypes from "prop-types";
+import { GiTicTacToe } from "react-icons/gi";
 
 function Square({ value, onClick }) {
   return (
     <button
-      className="square w-15 h-15 m-1 cursor-pointer border bg-orange-950 text-center text-lg font-bold leading-9"
+      className="square w-15 h-15 m-1 cursor-pointer rounded-xl bg-[#433633] text-center text-4xl font-bold leading-9 text-[#F7F0F5]"
       onClick={onClick}
     >
       {value}
@@ -29,6 +30,10 @@ function Board() {
     setSquares(newSquares);
     setXIsNext(!xIsNext);
   };
+  const resetGame = () => {
+    setSquares(Array(9).fill(null));
+    setXIsNext(true);
+  };
 
   const winner = calculateWinner(squares);
   let status;
@@ -39,13 +44,19 @@ function Board() {
   }
 
   return (
-    <div>
-      <div className="status w-screen">{status}</div>
-      <div className="board-row flex w-screen justify-center border bg-black">
+    <div className="flex flex-col gap-4">
+      <div className="status">{status}</div>
+      <div className="grid grid-flow-col grid-rows-3 border">
         {[...Array(9)].map((_, i) => (
           <Square key={i} value={squares[i]} onClick={() => handleClick(i)} />
         ))}
       </div>
+      <button
+        onClick={resetGame}
+        className="rounded-xl bg-[#DECBB7] px-4 py-2 font-bold text-[#5C5552] transition duration-200 hover:bg-[#F7F0F5]"
+      >
+        Reset Game
+      </button>{" "}
     </div>
   );
 }
@@ -74,15 +85,16 @@ function App() {
   return (
     <>
       <Layout>
-        <div className="rounded-lg bg-black p-4">
-          <h1 className="text-3xl font-extrabold text-[#FFD23F] sm:text-3xl md:text-4xl lg:text-5xl">
-            Tic Tac Toe Game
+        <div className="flex flex-col justify-center gap-6 rounded-lg bg-[#5C5552] p-4 text-center text-[#F7F0F5]">
+          <h1 className="text-3xl font-extrabold sm:text-3xl md:text-4xl lg:text-5xl">
+            Tic Tac Toe
           </h1>
+          <GiTicTacToe className="h-10 w-full" />
         </div>
-        <div className="flex w-6/12 items-center justify-around gap-2 sm:gap-3 md:gap-4 lg:gap-6">
-          <div className="center">
+        <div className="gap-2 rounded-lg bg-[#8F857D] p-4 sm:gap-3 md:gap-4 lg:gap-6">
+          <section className="">
             <Board />
-          </div>
+          </section>
         </div>
       </Layout>
     </>
