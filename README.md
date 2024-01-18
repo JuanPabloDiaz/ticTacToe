@@ -2,11 +2,9 @@
 
 # Tic Tac Toe 🎮
 
-This project is a responsive web application that allows users to use a pomodoro timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Thats why is called Tic Tac Toe
+Tic Tac Toe, reborn for the web! Two minds clash on a digital canvas, a 3x3 grid their battlefield. X's and O's, wielded like warriors, dance across the squares, vying for dominance. With each click, tension grows, a web of strategy spun. Can you outsmart your opponent, forge an unyielding line, and declare victory? Or will their cunning counter, leaving your hopes scattered like empty squares? This timeless dance of wit, now in React's embrace, invites you to test your skill, prove your cunning, and crown yourself web-woven champion. Are you ready to play?
 
 ## Description 💡
-
-This project is a Tic Tac Toe, which is a time management system that encourages people to work with the time they have—rather than against it. Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros.
 
 This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Tic Tac Toe with React.
 
@@ -37,7 +35,7 @@ This project was built as part of the **[freeCodeCamp’s legacy Front End Devel
 
 ### Built With 🔑
 
-Welcome to [Tic Tac Toe](https://tictactoe.jpdiaz.dev), a simple and intuitive pomodoro timer built with React.js, Vite.js, and Tailwind CSS.
+Welcome to the classic [Tic Tac Toe](https://tictactoe.jpdiaz.dev) game, built with React.js, Vite.js, and Tailwind CSS. It features a sleek and modern UI, responsive design, and efficient performance.
 
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
@@ -101,6 +99,7 @@ I hope you enjoy using the Tic Tac Toe!
 
 Resources list that I find helpful and would like to give credit to.
 
+- [Other projects](https://wongyc-66.github.io/odin-TicTacToe/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)
