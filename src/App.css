@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
