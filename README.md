@@ -100,6 +100,7 @@ I hope you enjoy using the Tic Tac Toe!
 Resources list that I find helpful and would like to give credit to.
 
 - [Other projects](https://wongyc-66.github.io/odin-TicTacToe/)
+- [Tic Tac Toe](https://codepen.io/freeCodeCamp/pen/KzXQgy)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)
