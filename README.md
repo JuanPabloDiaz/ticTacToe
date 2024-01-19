@@ -6,7 +6,7 @@ Tic Tac Toe, reborn for the web! Two minds clash on a digital canvas, a 3x3 grid
 
 ## Description 💡
 
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Tic Tac Toe with React.
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Tic Tac Toe with React. [learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/build-a-tic-tac-toe-game)
 
 <div align="center">
 
