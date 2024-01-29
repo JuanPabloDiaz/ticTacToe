@@ -6,12 +6,12 @@ Tic Tac Toe, reborn for the web! Two minds clash on a digital canvas, a 3x3 grid
 
 ## Description 💡
 
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Tic Tac Toe with React. [learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/build-a-tic-tac-toe-game)
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification](https://www.freecodecamp.org/certification/1diazdev/legacy-front-end)**. The goal was to build a Tic Tac Toe with React. [learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/build-a-tic-tac-toe-game)
 
 <div align="center">
 
 [![Tic Tac Toe](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://tictactoe.jpdiaz.dev/)
-[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://pr.new/github.com/JuanPabloDiaz/ticTacToe)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/ticTacToe)
 
 </div>
 
